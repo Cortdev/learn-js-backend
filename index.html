@@ -7,8 +7,16 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1 id="myH1"></h1>
-    <p id="myP"></p>
+    <h1>Temperature conversion</h1>
+    <input type="num" id="textB" value="0" /><br />
+
+    <input type="radio" id="ToFH" name="unit" />
+    <label for="toFH">celcius -> fahrenheit</label>
+
+    <input type="radio" id="ToC" name="unit" />
+    <label for="toC">fahrenheit -> celcius</label>
+    <button type="btn" onclick=""">submit </button>
+    <p id="result">select a unit</p>
     <script src="index.js"></script>
   </body>
 </html>
